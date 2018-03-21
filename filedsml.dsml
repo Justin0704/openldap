@@ -1,0 +1,149 @@
+<batchResponse xmlns="urn:oasis:names:tc:DSML:2:0:core" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <searchResponse requestID="1">
+        <searchResultEntry dn="dc=hrt,dc=com" requestID="1">
+            <attr name="objectClass">
+                <value>domain</value>
+                <value>top</value>
+            </attr>
+            <attr name="o">
+                <value>MichaelBlog</value>
+            </attr>
+            <attr name="dc">
+                <value>hrt</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="ou=Developer,dc=hrt,dc=com" requestID="2">
+            <attr name="description">
+                <value>Containerfordeveloperentries</value>
+            </attr>
+            <attr name="ou">
+                <value>Developer</value>
+            </attr>
+            <attr name="objectClass">
+                <value>organizationalUnit</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="ou=Tester,dc=hrt,dc=com" requestID="3">
+            <attr name="description">
+                <value>Containerfortestentries</value>
+            </attr>
+            <attr name="ou">
+                <value>Tester</value>
+            </attr>
+            <attr name="objectClass">
+                <value>organizationalUnit</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="uid=Michael,ou=Developer,dc=hrt,dc=com" requestID="4">
+            <attr name="uid">
+                <value>Michael</value>
+            </attr>
+            <attr name="description">
+                <value>This object was modified at Fri Dec 15 17:05:19 CST 2017</value>
+            </attr>
+            <attr name="sn">
+                <value>Sun</value>
+            </attr>
+            <attr name="cn">
+                <value>MichaelSun</value>
+            </attr>
+            <attr name="telephoneNumber">
+                <value>180-8888-xxxx</value>
+            </attr>
+            <attr name="objectClass">
+                <value>inetOrgPerson</value>
+            </attr>
+            <attr name="userPassword">
+                <value>111111</value>
+            </attr>
+            <attr name="labeledURI">
+                <value>www.google.com</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="uid=Miumiu,ou=Tester,dc=hrt,dc=com" requestID="5">
+            <attr name="uid">
+                <value>Miumiu</value>
+            </attr>
+            <attr name="sn">
+                <value>Wu</value>
+            </attr>
+            <attr name="cn">
+                <value>MiumiuWu</value>
+            </attr>
+            <attr name="objectClass">
+                <value>inetOrgPerson</value>
+            </attr>
+            <attr name="userPassword">
+                <value>111111</value>
+            </attr>
+            <attr name="labeledURI">
+                <value>http://www.hrt.com</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="dc=app1,dc=hrt,dc=com" requestID="6">
+            <attr name="objectClass">
+                <value>domain</value>
+            </attr>
+            <attr name="o">
+                <value>Michael Demo</value>
+            </attr>
+            <attr name="dc">
+                <value>app1</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="ou=Demo,dc=app1,dc=hrt,dc=com" requestID="7">
+            <attr name="ou">
+                <value>Developer</value>
+                <value>Demo</value>
+            </attr>
+            <attr name="objectClass">
+                <value>organizationalUnit</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="uid=michael2,ou=Demo,dc=app1,dc=hrt,dc=com" requestID="8">
+            <attr name="uid">
+                <value>admin</value>
+                <value>michael2</value>
+            </attr>
+            <attr name="mail">
+                <value>sjsky_007@gmail.com</value>
+            </attr>
+            <attr name="sn">
+                <value>Sun</value>
+            </attr>
+            <attr name="cn">
+                <value>Michael Sun</value>
+            </attr>
+            <attr name="objectClass">
+                <value>inetOrgPerson</value>
+            </attr>
+            <attr name="userPassword">
+                <value>111111</value>
+            </attr>
+            <attr name="labeledURI">
+                <value>http://www.hrt.com</value>
+            </attr>
+        </searchResultEntry>
+        <searchResultEntry dn="uid=hazel,ou=Demo,dc=app1,dc=hrt,dc=com" requestID="9">
+            <attr name="uid">
+                <value>user</value>
+                <value>hazel</value>
+            </attr>
+            <attr name="sn">
+                <value>Wu</value>
+            </attr>
+            <attr name="cn">
+                <value>Hazel Wu</value>
+            </attr>
+            <attr name="objectClass">
+                <value>inetOrgPerson</value>
+            </attr>
+            <attr name="userPassword">
+                <value>111111</value>
+            </attr>
+            <attr name="labeledURI">
+                <value>http://www.hrt.com</value>
+            </attr>
+        </searchResultEntry>
+    </searchResponse>
+</batchResponse>
